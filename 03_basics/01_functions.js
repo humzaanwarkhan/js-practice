@@ -40,4 +40,30 @@ function getScore(giveScore){
    return giveScore[0]
 }
 
-console.log(getScore(score));
+// console.log(getScore(score));
+
+const message = (name)=> {
+      if (name=="humza") {
+        console.log(`${name} is a good boy`);
+      }
+      else{
+        console.log(`${name} is a bad boy`);
+      }
+}
+// message('ram')
+
+const vote = (age) => {
+    if(age>=18){
+        console.log('You can vote');
+    }
+    else{
+        console.log('You cannot vote');
+    }
+}
+
+// vote(10);
+
+const Percentage = (one,two,three,four) =>{
+     console.log('Your percentage is ' + ((one+two+three+four)/400)*100 + '%');
+}
+Percentage(80, 80, 80, 80)
